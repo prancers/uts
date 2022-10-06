@@ -80,6 +80,7 @@ nav ul li ul li
 nav ul li a:hover
 {
     color: cadetblue;
+    cursor: pointer;
 }
 
 nav ul li:hover ul
@@ -278,6 +279,11 @@ input[name="search"]:hover
     left: 65%;
 }
 
+.category p
+{
+    cursor: pointer;
+}
+
 .category h3
 {
     font-size: 25px;
@@ -368,6 +374,11 @@ input[name="search"]:hover
 }
 
 /* BAGIAN RECENT POST */
+
+.recent h4
+{
+    cursor: pointer;
+}
 
 .recent h3
 {
@@ -511,6 +522,11 @@ input[name="search"]:hover
     position: absolute;
     top: 300%;
     left: 65%;
+}
+
+.clouds input
+{
+    cursor: pointer;
 }
 
 .clouds .tag h3
@@ -751,6 +767,7 @@ input[name="search"]:hover
     top: 50%;
     background-color: rgb(200, 88, 19);
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .formnews input:hover[name="search2"]
@@ -786,7 +803,7 @@ input[name="search"]:hover
     color:rgb(225, 72, 98);
 }
 
-.one h3
+.one .smb1
 {
     font-size: 50px;
     font-family: 'Ms Madi', cursive;
@@ -808,10 +825,16 @@ input[name="search"]:hover
     color: black;
 }
 
-.kotak1 h3:hover , .ft1:hover
+.kotak1:hover a
 {
-    color:rgb(225, 72, 98);
-    cursor: pointer;
+    background-color: transparent;
+    color: rgb(225, 72, 98);
+}
+
+.kotak1:hover p
+{
+   
+    color: rgb(225, 72, 98);
 }
 
 .one .artikel1 
@@ -917,13 +940,19 @@ input[name="search"]:hover
     border-radius: 10px;
 }
 
-.two a:hover
+.kotak2:hover a
 {
-    opacity: 0;
-    color:rgb(225, 72, 98);
+    background-color: transparent;
+    color: rgb(225, 72, 98);
 }
 
-.two h3
+.kotak2:hover p
+{
+   
+    color: rgb(225, 72, 98);
+}
+
+.two .smb
 {
     font-size: 50px;
     font-family: 'Ms Madi', cursive;
@@ -945,12 +974,6 @@ input[name="search"]:hover
     color: black;
 }
 
-.kotak2 h3:hover , .ft2:hover
-{
-    color:rgb(225, 72, 98);
-    cursor: pointer;
-}
-
 .two .artikel2 
 {
     position: absolute;
@@ -966,6 +989,12 @@ input[name="search"]:hover
     position: absolute;
     top: 14%;
     left: 5%;
+}
+
+.artikel2 h2:hover
+{
+    cursor: pointer;
+    color: rgb(225, 72, 98);
 }
 
 .artikel2 .art2
@@ -1012,11 +1041,7 @@ input[name="search"]:hover
     
 }
 
-.two .artike2 h2:hover
-{
-    color: rgb(225, 72, 98);
-    cursor: pointer;
-}
+
 
 .two .artikel2 .orang:hover
 {
@@ -1054,13 +1079,9 @@ input[name="search"]:hover
     border-radius: 10px;
 }
 
-.tri a:hover
-{
-    opacity: 0;
-    color:rgb(225, 72, 98);
-}
 
-.tri h3
+
+.tri .smb2
 {
     font-size: 50px;
     font-family: 'Ms Madi', cursive;
@@ -1082,10 +1103,16 @@ input[name="search"]:hover
     color: black;
 }
 
-.kotak3 h3:hover , .ft3:hover
+.kotak3:hover a
 {
-    color:rgb(225, 72, 98);
-    cursor: pointer;
+    background-color: transparent;
+    color: rgb(225, 72, 98);
+}
+
+.kotak3:hover p
+{
+   
+    color: rgb(225, 72, 98);
 }
 
 .tri .artikel3
@@ -1192,13 +1219,8 @@ input[name="search"]:hover
     border-radius: 10px;
 }
 
-.fore a:hover
-{
-    opacity: 0;
-    color:rgb(225, 72, 98);
-}
 
-.fore h3
+.fore .smb3
 {
     font-size: 50px;
     font-family: 'Ms Madi', cursive;
@@ -1220,10 +1242,16 @@ input[name="search"]:hover
     color: black;
 }
 
-.kotak4 h3:hover , .ft4:hover
+.kotak4:hover a
 {
-    color:rgb(225, 72, 98);
-    cursor: pointer;
+    background-color: transparent;
+    color: rgb(225, 72, 98);
+}
+
+.kotak4:hover p
+{
+   
+    color: rgb(225, 72, 98);
 }
 
 .fore .artikel4
@@ -1329,13 +1357,9 @@ input[name="search"]:hover
     border-radius: 10px;
 }
 
-.five a:hover
-{
-    opacity: 0;
-    color:rgb(225, 72, 98);
-}
 
-.five h3
+
+.five .smb4
 {
     font-size: 50px;
     font-family: 'Ms Madi', cursive;
@@ -1357,10 +1381,16 @@ input[name="search"]:hover
     color: black;
 }
 
-.kotak5 h3:hover , .ft5:hover
+.kotak5:hover a
 {
-    color:rgb(225, 72, 98);
-    cursor: pointer;
+    background-color: transparent;
+    color: rgb(225, 72, 98);
+}
+
+.kotak5:hover p
+{
+   
+    color: rgb(225, 72, 98);
 }
 
 .five .artikel5
@@ -1619,7 +1649,7 @@ input[name="search"]:hover
 {
     position: absolute;
     top: 54%;
-    right:66%;
+    right:65.5%;
 }
 
 .pricing a:hover , .about a:hover , .gallery a:hover , .contact a:hover

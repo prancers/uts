@@ -83,6 +83,7 @@ nav ul li ul li
 nav ul li a:hover
 {
     color: cadetblue;
+    cursor: pointer;
 }
 
 .no
@@ -255,6 +256,7 @@ nav ul li a:hover
     padding-left: 8px;
     background-color: rgb(30, 30, 47);
     border: 2px solid rgb(146, 30, 30);
+
 }
 
 .where input[type="date"]
@@ -268,6 +270,7 @@ nav ul li a:hover
     background-color: rgb(30, 30, 47);
     border: 2px solid rgb(146, 30, 30);
     color: grey;
+    cursor: pointer;
 }
 
 select
@@ -281,6 +284,7 @@ select
     background-color: rgb(30, 30, 47);
     color: grey;
     border: 2px solid rgb(146, 30, 30);
+    cursor: pointer;
 }
 
 input[name="search"]
@@ -296,11 +300,13 @@ input[name="search"]
     text-align: center;
     border-radius: 10px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 input[name="search"]:hover
 {
     background-color: rgb(0, 110, 110);
+    cursor: pointer;
 }
 
 /* Populer Place */
@@ -627,6 +633,8 @@ input[name="search2"]
     top: 163%;
     left: 5%;
     border-radius: 10px;
+    cursor: default;
+
 }
 
 .filter h3
@@ -639,6 +647,7 @@ input[name="search2"]
     border-bottom: 2px solid white;  
     width: 350px;
     padding-bottom: 20px;
+    cursor: default;
 }
 
 .filter select[name="populer"]
@@ -653,6 +662,7 @@ input[name="search2"]
     position: absolute;
     top: 10%;
     left: 2%;
+    
 }
 
 .filter select[name="type"]
@@ -665,6 +675,7 @@ input[name="search2"]
     border: 2px solid rgb(146, 30, 30);
     position: absolute;
     top: 30%;
+    
     left: 2%;
 }
 
@@ -681,7 +692,6 @@ input[name="reset"]
     position: absolute;
     top: 80%;
     left: 8%;
-    cursor: pointer;
 }
 
 /*Form Subscribe*/
@@ -702,6 +712,7 @@ input[name="reset"]
     top: 390%;
     left: 235px;
     position: absolute;
+    cursor: default;
 }
 
 .subscribe .kata3 .kata5
@@ -712,6 +723,7 @@ input[name="reset"]
     left: 235px;
     top: 395%;
     position: absolute;
+    cursor: default;
 }
 
 .subscribe .mail input
@@ -752,6 +764,7 @@ input[name="search1"]
     position: absolute;
     top: 420%;
     left: 42%;
+    cursor: default;
 }
 
 .recent .trip .tanggal1
@@ -760,6 +773,7 @@ input[name="search1"]
     position: absolute;
     top: 478%;
     left: 7%;
+    cursor: default;
 }
 
 .recent .trip .trip1
@@ -780,6 +794,7 @@ input[name="search1"]
     position: absolute;
     top: 440%;
     left: 6%;
+    cursor: default;
 }
 
 .recent .trip3 img
@@ -790,6 +805,7 @@ input[name="search1"]
     position: absolute;
     top: 440%;
     left: 40%;
+    cursor: default;
 }
 
 .recent .trip3 .tanggal2
@@ -798,6 +814,7 @@ input[name="search1"]
     position: absolute;
     top: 478%;
     left: 41%;
+    cursor: default;
 }
 
 .recent .trip3 .trip4
@@ -818,6 +835,7 @@ input[name="search1"]
     position: absolute;
     top: 440%;
     left: 73%;
+    cursor: default;
 }
 
 .recent .trip5 .tanggal3
@@ -826,6 +844,7 @@ input[name="search1"]
     position: absolute;
     top: 478%;
     left: 74%;
+    cursor: default;
 }
 
 .recent .trip5 .trip6

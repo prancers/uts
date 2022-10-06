@@ -250,6 +250,7 @@ nav ul li a:hover
     position: absolute;
     left: 13%;
     top: 50%;
+    cursor: pointer;
 }
 
 .form input[name="search"]:hover
@@ -270,6 +271,11 @@ nav ul li a:hover
     left: 65%;
 }
 
+.category p
+{
+    cursor: pointer;
+}
+
 .category h3
 {
     font-size: 25px;
@@ -280,6 +286,7 @@ nav ul li a:hover
     border-bottom: 2px solid black  ;
     width: 340px;
     color: black;
+    cursor: default;
 }
 
 .category .food
@@ -371,6 +378,7 @@ nav ul li a:hover
     border-bottom: 2px solid rgb(0, 0, 0);
     width: 340px;
     color: rgb(0, 0, 0);
+    cursor: default;
 }
 
 
@@ -391,6 +399,16 @@ nav ul li a:hover
     position: absolute;
     top: 16%;
     left: 7%;
+}
+
+.recent h4
+{
+    cursor: pointer;
+}
+
+.recent p 
+{
+    cursor: default;
 }
 
 .poto1 h4
@@ -515,6 +533,12 @@ nav ul li a:hover
     border-bottom: 2px solid rgb(0, 0, 0);
     width: 340px;
     color: rgb(0, 0, 0);
+    cursor: default;
+}
+
+.project input
+{
+    cursor: pointer;
 }
 
 .project input[name="pro"]
@@ -640,6 +664,7 @@ nav ul li a:hover
     border-bottom: 2px solid rgb(0, 0, 0);
     width: 340px;
     color: rgb(0, 0, 0);
+    cursor: default;
 }
 
 .feeds1 img
@@ -723,6 +748,7 @@ nav ul li a:hover
     border-bottom: 2px solid rgb(0, 0, 0);
     width: 340px;
     color: rgb(0, 0, 0);
+    cursor: default;
 }
 
 .formnews .keyword
@@ -748,6 +774,7 @@ nav ul li a:hover
 .formnews input:hover[name="search2"]
 {
     background-color: rgb(157, 69, 14);
+    cursor: pointer;
 }   
 
 /* ARTIKEL FOTO PERTAMA */
@@ -772,13 +799,9 @@ nav ul li a:hover
     border-radius: 10px;
 }
 
-.one a:hover
-{
-    opacity: 0;
-    color:rgb(225, 72, 98);
-}
 
-.one h3
+
+.one .smb2
 {
     font-size: 50px;
     font-family: 'Ms Madi', cursive;
@@ -799,11 +822,16 @@ nav ul li a:hover
     font-weight: bold;
     color: black;
 }
-
-.kotak1 h3:hover , .ft1:hover
+.kotak1:hover a
 {
-    color:rgb(225, 72, 98);
-    cursor: pointer;
+    background-color: transparent;
+    color: rgb(225, 72, 98);
+}
+
+.kotak1:hover p
+{
+   
+    color: rgb(225, 72, 98);
 }
 
 .one .artikel1 
@@ -948,6 +976,8 @@ nav ul li a:hover
 
 /* BAGIAN LIKE DAN LOGO */
 
+
+
 .like .love img
 {
     width: 25px;
@@ -955,6 +985,7 @@ nav ul li a:hover
     position: absolute;
     top: 358%;
     left: 5%;
+    cursor: pointer;
 }
 
 .like .love p
@@ -965,6 +996,7 @@ nav ul li a:hover
     top: 361.5%;
     left: 7%;
     color: grey;
+    cursor: default;
 }
 
 .like .inst img
@@ -1004,6 +1036,11 @@ nav ul li a:hover
 }
 
 /* NEXT AND PREV */
+
+.slide p
+{
+    cursor: default;
+}
 
 .slide .prev img
 {
@@ -1289,6 +1326,7 @@ input[name="search"]
 input[name="search"]:hover
 {
     background-color: rgb(0, 110, 110);
+    cursor: pointer;
 }
 
 /* FOOTER */

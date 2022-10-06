@@ -80,6 +80,7 @@ nav ul li ul li
 nav ul li a:hover
 {
     color: cadetblue;
+    cursor: pointer;
 }
 
 .no
@@ -1371,7 +1372,7 @@ input[name="search2"]
 {
     position: absolute;
     top: 54%;
-    right:66%;
+    right:65.5%;
 }
 
 .pricing a:hover , .about a:hover , .gallery a:hover , .contact a:hover
