@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {padding: 0; margin: 0;}
+ 
+body
+{
+    background:white;
+    height: 100%;
+    font-family: 'Rubik', sans-serif; 
+}
+
+/*MENU*/
+
+nav
+{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+img
+{
+    margin-top: 20px;
+    float: left;
+    width: 40px;
+    height: 30px;
+}
+
+.search
+{
+    margin-left: 20px;
+}
+
+.travelo
+{
+    font-size: 25px;
+    padding-top: 22px;
+}
+
+nav ul li
+{
+    float: left;
+    list-style: none;
+    background: white;
+    margin-top: -23px;
+    font-weight: bold;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li ul
+{
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+nav ul li ul li
+{
+    float: none;
+}
+
+nav ul li a:hover
+{
+    color: cadetblue;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    position: absolute;
+    top: 70px;
+}
+
+.no
+{
+    float: right;
+    margin-right: 350px;
+    margin-top: -24px;
+}
+
+.home
+{
+    margin-left: 150px;
+}
+
+.about
+{
+    margin-left: 210px;
+}
+
+.destination
+{
+    margin-left: 270px;
+}
+
+.pages
+{
+    margin-left: 370px;
+}
+
+.blog
+{
+    margin-left: 430px;
+}
+
+.pgs, .blg
+{
+    display: block;
+    padding: 8px;
+}
+
+.contact
+{
+    margin-left: 480px;
+}
+
+.tp img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-right: 475px;
+    margin-top: -24px;
+}
+
+.ig img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 300px;
+}
+
+.fb img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 260px;
+}
+
+.in img
+{
+    
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 220px;
+    
+}
+
+.g img
+{
+    width: 26px;
+    height: 21px;
+    float: right;
+    margin-top: -26px;
+    margin-right: 180px;
+}
+
+.cari 
+{
+    width: 100px;
+    height: 90px;
+    float: right;
+}
+
+.cari img
+{
+    width: 80px;
+    height: 70px;
+    margin-top: -50px;
+}
+
+
+/* TAMPAK DEPAN */
+.depan
+{
+    background-image: url(view.jpeg);
+    width: 100%;
+    height: 700px;
+    
+}
+
+.view
+{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ms Madi', cursive;
+    padding-top: 250px;
+    color: whitesmoke;   
+    
+}
+
+.text
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+}
+
+.peta
+{
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    border: 4px solid black;
+
+}
+
+.formulir .enter
+{
+    position: absolute;
+    top: 235%;
+    border: 1px solid black;
+    height: 157px;
+    left: 10%;
+    
+}
+
+.formulir .form1 h3
+{
+    position: absolute;
+    top: 225%;
+    left: 10%;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.name input
+{
+    position: absolute;
+    top: 265%;
+    width: 380px;
+    height: 30px;
+    left: 10%;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding: 0 0 0 13px;
+}
+
+.email input
+{
+    position: absolute;
+    top: 265%;
+    width: 380px;
+    height: 30px;
+    left: 50%;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding: 0 0 0 13px;
+}
+
+.subject input
+{
+    position: absolute;
+    top: 275%;
+    width: 380px;
+    height: 30px;
+    left: 10%;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding: 0 0 0 13px;
+}
+
+.rumah h3
+{
+    position: absolute;
+    top: 230%;
+    left: 80%;
+}
+
+.rumah img
+{
+    position: absolute;
+    top: 227%;
+    left: 75%;
+    width: 70px;
+    height: 50px;
+}
+
+.rumah .rumah1
+{
+    position: absolute;
+    top: 233%;
+    left: 80%;
+}
+
+.hp h3
+{
+    position: absolute;
+    top: 240%;
+    left: 80%;
+}
+
+.hp img
+{
+    position: absolute;
+    top: 237%;
+    left: 74.7%;
+    width: 80px;
+    height: 50px;
+}
+
+.hp .hp1
+{
+    position: absolute;
+    top: 243%;
+    left: 80%;
+}
+
+.email2 h3
+{
+    position: absolute;
+    top: 250%;
+    left: 80%;
+}
+
+.email2 img
+{
+    position: absolute;
+    top: 247%;
+    left: 74.7%;
+    width: 80px;
+    height: 50px;
+}
+
+.email2 .email3
+{
+    position: absolute;
+    top: 253%;
+    left: 80%;
+}
+
+input[name="search"]
+{
+    position: absolute;
+    top: 295%;
+    left: 10%; 
+    background-color: rgb(146, 2, 2);
+    border: none;
+    height: 45px;
+    width: 120px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+input[name="search"]:hover
+{
+    background-color: rgb(0, 110, 110);
+}
+
+/* FOOTER */
+
+.foot 
+{
+    width: 100%;
+    height: 500px;
+    background-color:#040e27;
+    position: absolute;
+    top: 330%;
+}
+
+.foot .alamat img
+{
+    width: 70px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.foot .alamat h2
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 9%;
+}
+
+.foot .alamat .alamat1
+{
+    color: grey;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    width:200px;
+}
+
+.foot .alamat .nohp
+{
+    position: absolute;
+    top: 42%;
+    color: grey;
+    left: 5%;
+}
+
+.foot .alamat .email
+{
+    position: absolute;
+    top: 46%;
+    color: grey;
+    left: 5%;
+}
+
+.email a , .nohp a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.email a:hover , .nohp a:hover
+{
+    color: rgb(0, 110, 110);
+    
+}
+
+.foot .company .com h2
+{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    color: grey;
+}
+
+.foot .company a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.pricing
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.about1
+{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+}
+
+.gallery
+{
+    position: absolute;
+    top: 46%;
+    left: 30%;
+}
+
+.contact1
+{
+    position: absolute;
+    top: 54%;
+    right:66%;
+}
+
+.pricing a:hover , .about a:hover , .gallery a:hover , .contact a:hover
+{
+    color: rgb(0, 110, 110);
+}
+
+.destination1 .desti
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 48%;
+}
+
+.destination1 a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.jakarta
+{
+    position: absolute;
+    top: 30%;
+    left: 48%;
+}
+
+.bandung
+{
+    position: absolute;
+    top: 38%;
+    left: 48%;
+}
+
+.malang
+{
+    position: absolute;
+    top: 46%;
+    left: 48%;
+}
+
+.batam
+{
+    position: absolute;
+    top: 54%;
+    left: 48%;
+}
+
+.bogor
+{
+    position: absolute;
+    top: 30%;
+    left: 61%;
+}
+
+.samarinda
+{
+    position: absolute;
+    top: 38%;
+    left: 61%;
+}
+
+.palembang
+{
+    position: absolute;
+    top: 46%;
+    left: 61%;
+}
+
+.jambi
+{
+    position: absolute;
+    top: 54%;
+    left: 61%;
+}
+
+.ins
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 75%;
+}
+
+.foto1 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 75%;
+}
+
+.foto2 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 82%;
+}
+
+.foto3 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 89%;
+}
+
+.foto4 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+
+.foto5 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 82%;
+}
+
+.foto6 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 89%;
+}
+
+.copy 
+{
+    color: grey;
+    position: absolute;
+    top: 92%;
+    left: 60px;
+    text-align: center;
+    border-top: 1px solid rgb(105, 105, 105);
+    width: 1100px;
+    padding-top: 10px;
+}
+
+.jakarta a:hover , .bandung a:hover , .malang a:hover ,
+.batam a:hover , .bogor a:hover , .samarinda a:hover ,
+.palembang a:hover , .jambi a:hover
+{
+    color: rgb(0, 110, 110);
+}
+
+.logos .logo1 img
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+.logos .logo2 img
+{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 41.4%;
+    left: 5%;
+}
+
+.logos .logo3 img
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 39%;
+    left: 7%;
+}
+
+.logos .logo4 img
+{
+    width: 40px;
+    height: 33px;
+    position: absolute;
+    top: 39.8%;
+    left: 10.2%;
+}
+
+.logos .logo5 img
+{
+    width: 30px;
+    height: 23px;
+    position: absolute;
+    top: 40.5%;
+    left: 14.2%;
+}

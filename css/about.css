@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+* {padding: 0; margin: 0;}
+ 
+body
+{
+    background:white;
+    height: 100%;
+    font-family: 'Rubik', sans-serif; 
+}
+
+/*MENU*/
+
+nav
+{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+img
+{
+    margin-top: 20px;
+    float: left;
+    width: 40px;
+    height: 30px;
+}
+
+.search
+{
+    margin-left: 20px;
+}
+
+.travelo
+{
+    font-size: 25px;
+    padding-top: 22px;
+}
+
+nav ul li
+{
+    float: left;
+    list-style: none;
+    background: white;
+    margin-top: -23px;
+    font-weight: bold;
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav ul li ul
+{
+    display: none;
+    position: absolute;
+    
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+nav ul li ul li
+{
+    float: none;
+}
+
+nav ul li a:hover
+{
+    color: cadetblue;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    position: absolute;
+    top: 70px;
+}
+
+.no
+{
+    float: right;
+    margin-right: 350px;
+    margin-top: -24px;
+}
+
+.home
+{
+    margin-left: 150px;
+}
+
+.about
+{
+    margin-left: 210px;
+}
+
+.destination
+{
+    margin-left: 270px;
+}
+
+.pages
+{
+    margin-left: 370px;
+}
+
+.blog
+{
+    margin-left: 430px;
+}
+
+.pgs, .blg
+{
+    display: block;
+    padding: 8px;
+}
+
+.contact
+{
+    margin-left: 480px;
+}
+
+.tp img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-right: 475px;
+    margin-top: -24px;
+}
+
+.ig img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 300px;
+}
+
+.fb img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 260px;
+}
+
+.in img
+{
+    
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 220px;
+    
+}
+
+.g img
+{
+    width: 26px;
+    height: 21px;
+    float: right;
+    margin-top: -26px;
+    margin-right: 180px;
+}
+
+.cari 
+{
+    width: 100px;
+    height: 90px;
+    float: right;
+}
+
+.cari img
+{
+    width: 80px;
+    height: 70px;
+    margin-top: -50px;
+}
+
+/* TAMPAK DEPAN */
+
+.depan
+{
+    background-image: url(about.webp);
+    width: 100%;
+    height: 700px;
+    
+}
+
+.about1
+{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ms Madi', cursive;
+    padding-top: 230px;
+    color: rgb(94, 39, 48);
+    
+}
+
+.text
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(224, 221, 222);
+}
+
+/* OUR STORY */
+
+.story .our
+{
+    position: absolute;
+    left: 6%;
+    top: 130%;
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.story .story1
+{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 145%;
+    left: 18%;
+    font-size: 20px;
+    color: grey;
+}
+
+.story .story2
+{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 165%;
+    left: 18%;
+    font-size: 20px;
+    color: grey;
+}
+
+.nice1 img
+{
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    top: 200%;
+    left: 20%;
+}
+
+.nice2 img
+{
+    width: 450px;
+    height: 320px;
+    top: 200%;
+    left: 50%;
+    position: absolute;
+}
+
+.angka1
+{
+    font-size: 60px;
+    color: rgb(192, 34, 34);
+    position: absolute;
+    top: 260%;
+    left: 25%;
+}
+
+.angka2
+{
+    font-size: 60px;
+    color: rgb(192, 34, 34);
+    position: absolute;
+    top: 260%;
+    left: 50%;
+}
+
+.angka3
+{
+    font-size: 60px;
+    color: rgb(192, 34, 34);
+    position: absolute;
+    top: 260%;
+    left: 75%;
+}
+
+.kata1
+{
+    color: grey;
+    top: 271%;
+    position: absolute;
+    left: 20%;
+    font-size: 20px;
+}
+
+.kata2
+{
+    color: grey;
+    top: 271%;
+    position: absolute;
+    left: 47%;
+    font-size: 20px;
+}
+
+.kata3
+{
+    color: grey;
+    top: 271%;
+    position: absolute;
+    left: 75%;
+    font-size: 20px;
+}
+
+/* VIDIO */
+
+.vidio
+{
+    position: absolute;
+    top: 290%;
+    left: 2%;
+}
+
+/* BAWAH VIDIO */
+
+.bawahvidio .mobil img
+{
+    position: absolute;
+    top: 400%;
+    left: 15%;
+    width: 80px;
+    height: 60px;
+    
+}
+
+.bawahvidio .hotel img
+{
+    position: absolute;
+    top: 400%;
+    left: 45%;
+    width: 80px;
+    height: 60px;
+}
+
+.bawahvidio .bumi img
+{
+    position: absolute;
+    top: 400%;
+    left: 75%;
+    width: 80px;
+    height: 60px;
+}
+
+.mobil h2
+{
+    position: absolute;
+    top: 415%;
+    left: 9%;
+}
+
+.hotel h2
+{
+    position: absolute;
+    top: 415%;
+    left: 42%;
+}
+
+.bumi h2
+{
+    position: absolute;
+    top: 415%;
+    left: 73%;
+}
+
+.mobil .mobil1
+{
+    position: absolute;
+    top: 420%;
+    left: 7%;
+    font-size: 18px;
+    color: grey;
+}
+
+.hotel .hotel1
+{
+    position: absolute;
+    top: 420%;
+    left: 38%;
+    font-size: 18px;
+    color: grey;
+}
+
+.bumi .bumi1
+{
+    position: absolute;
+    top: 420%;
+    left: 68%;
+    font-size: 18px;
+    color: grey;
+}
+
+.mobil .mobil2
+{
+    position: absolute;
+    top: 423%;
+    left: 10%;
+    font-size: 18px;
+    color: grey;
+}
+
+.hotel .hotel2
+{
+    position: absolute;
+    top: 423%;
+    left: 41%;
+    font-size: 18px;
+    color: grey;
+}
+
+.bumi .bumi2
+{
+    position: absolute;
+    top: 423%;
+    left: 71%;
+    font-size: 18px;
+    color: grey;
+    
+}
+
+/* QUOTES */
+
+.bijak .densu .koma img
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 470%;
+    left: 49%;
+    
+}
+
+.bijak .densu img
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 460%;
+    left: 45%;
+}
+
+.conta img
+{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 2200px;
+    filter: brightness(50%);
+    
+}
+
+.bijak1
+{
+    position: absolute;
+    top: 484%;
+    font-size: 20px;
+    left: 29%;
+    color: white;
+}
+
+.bijak2
+{
+    position: absolute;
+    top: 488% ;
+    font-size: 20px;
+    left: 25%;
+    color: white;
+}
+
+.katabijak h3
+{
+    position: absolute;
+    top: 495% ;
+    left: 43%;
+    color: white;
+}
+
+/* RECENT TRIP */
+
+.recent .recent1 h2
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;   
+    position: absolute;
+    top: 535%;
+    left: 42%;
+}
+
+.recent .trip .tanggal1
+{
+    font-size: 15px;
+    position: absolute;
+    top: 590%;
+    left: 7%;
+}
+
+.recent .trip .trip1
+{
+    font-size: 20px;
+    position: absolute;
+    top: 593%;
+    left: 7%;
+    width: 250px;
+    height: 10px;
+}
+
+.recent .trip img
+{
+    width: 300px;
+    height: 220px;
+    border-radius: 5%;
+    position: absolute;
+    top: 550%;
+    left: 6%;
+}
+
+.recent .trip3 img
+{
+    width: 300px;
+    height: 220px;
+    border-radius: 5%;
+    position: absolute;
+    top: 550%;
+    left: 40%;
+}
+
+.recent .trip3 .tanggal2
+{
+    font-size: 15px;
+    position: absolute;
+    top: 590%;
+    left: 41%;
+}
+
+.recent .trip3 .trip4
+{
+    font-size: 20px;
+    position: absolute;
+    top: 593%;
+    left: 41%;
+    width: 250px;
+    height: 10px;
+}
+
+.recent .trip5 img
+{
+    width: 300px;
+    height: 220px;
+    border-radius: 5%;
+    position: absolute;
+    top: 550%;
+    left: 73%;
+}
+
+.recent .trip5 .tanggal3
+{
+    font-size: 15px;
+    position: absolute;
+    top: 590%;
+    left: 74%;
+}
+
+.recent .trip5 .trip6
+{
+    font-size: 20px;
+    position: absolute;
+    top: 593%;
+    left: 74%;
+    width: 250px;
+    height: 10px;
+}
+
+.trip1:hover , .trip4:hover , .trip6:hover
+{
+    color: rgb(27, 207, 207);;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.foot 
+{
+    width: 100%;
+    height: 500px;
+    background-color:#040e27;
+    position: absolute;
+    top: 620%;
+}
+
+.foot .alamat img
+{
+    width: 70px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.foot .alamat h2
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 9%;
+}
+
+.foot .alamat .alamat1
+{
+    color: grey;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    width:200px;
+}
+
+.foot .alamat .nohp
+{
+    position: absolute;
+    top: 42%;
+    color: grey;
+    left: 5%;
+}
+
+.foot .alamat .email
+{
+    position: absolute;
+    top: 46%;
+    color: grey;
+    left: 5%;
+}
+
+.email a , .nohp a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.email a:hover , .nohp a:hover
+{
+    color: rgb(0, 110, 110);
+    
+}
+
+.foot .company .com h2
+{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    color: grey;
+}
+
+.foot .company a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.pricing
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.about2
+{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+}
+
+.gallery
+{
+    position: absolute;
+    top: 46%;
+    left: 30%;
+}
+
+.contact1
+{
+    position: absolute;
+    top: 54%;
+    right:66%;
+}
+
+.pricing a:hover , .about a:hover , .gallery a:hover , .contact a:hover
+{
+    color: rgb(0, 110, 110);
+}
+
+.destination1 .desti
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 48%;
+}
+
+.destination1 a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.jakarta
+{
+    position: absolute;
+    top: 30%;
+    left: 48%;
+}
+
+.bandung
+{
+    position: absolute;
+    top: 38%;
+    left: 48%;
+}
+
+.malang
+{
+    position: absolute;
+    top: 46%;
+    left: 48%;
+}
+
+.batam
+{
+    position: absolute;
+    top: 54%;
+    left: 48%;
+}
+
+.bogor
+{
+    position: absolute;
+    top: 30%;
+    left: 61%;
+}
+
+.samarinda
+{
+    position: absolute;
+    top: 38%;
+    left: 61%;
+}
+
+.palembang
+{
+    position: absolute;
+    top: 46%;
+    left: 61%;
+}
+
+.jambi
+{
+    position: absolute;
+    top: 54%;
+    left: 61%;
+}
+
+.ins
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 75%;
+}
+
+.foto1 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 75%;
+}
+
+.foto2 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 82%;
+}
+
+.foto3 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 89%;
+}
+
+.foto4 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+
+.foto5 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 82%;
+}
+
+.foto6 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 89%;
+}
+
+.copy 
+{
+    color: grey;
+    position: absolute;
+    top: 92%;
+    left: 60px;
+    text-align: center;
+    border-top: 1px solid rgb(105, 105, 105);
+    width: 1100px;
+    padding-top: 10px;
+}
+
+.jakarta a:hover , .bandung a:hover , .malang a:hover ,
+.batam a:hover , .bogor a:hover , .samarinda a:hover ,
+.palembang a:hover , .jambi a:hover
+{
+    color: rgb(0, 110, 110);
+}
+
+.logos .logo1 img
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+.logos .logo2 img
+{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 41.4%;
+    left: 5%;
+}
+
+.logos .logo3 img
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 39%;
+    left: 7%;
+}
+
+.logos .logo4 img
+{
+    width: 40px;
+    height: 33px;
+    position: absolute;
+    top: 39.8%;
+    left: 10.2%;
+}
+
+.logos .logo5 img
+{
+    width: 30px;
+    height: 23px;
+    position: absolute;
+    top: 40.5%;
+    left: 14.2%;
+}
+

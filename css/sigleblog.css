@@ -1,0 +1,1605 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+* {padding: 0; margin: 0;}
+ 
+body
+{
+    background:white;
+    height: 100%;
+    font-family: 'Rubik', sans-serif; 
+    font-weight: bold;
+}
+
+/*MENU*/
+
+nav
+{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+img
+{
+    margin-top: 20px;
+    float: left;
+    width: 40px;
+    height: 30px;
+}
+
+.search
+{
+    margin-left: 20px;
+}
+
+.travelo
+{
+    font-size: 25px;
+    padding-top: 22px;
+}
+
+nav ul li
+{
+    float: left;
+    list-style: none;
+    background: white;
+    margin-top: -23px;
+    font-weight: bold;
+}
+
+nav ul li a
+{
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav ul li ul
+{
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    position: absolute;
+    top: 70px;
+    
+}
+
+nav ul li ul li
+{
+    float: none;
+}
+
+nav ul li a:hover
+{
+    color: cadetblue;
+}
+
+.no
+{
+    float: right;
+    margin-right: 350px;
+    margin-top: -24px;
+}
+
+.home
+{
+    margin-left: 150px;
+}
+
+.about
+{
+    margin-left: 210px;
+}
+
+.destination
+{
+    margin-left: 270px;
+}
+
+.pages
+{
+    margin-left: 360px;
+}
+
+.blog
+{
+    margin-left: 425px;
+}
+
+.pgs, .blg
+{
+    display: block;
+    padding: 8px;
+   
+}
+
+.contact
+{
+    margin-left: 480px;
+}
+
+.tp img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-right: 475px;
+    margin-top: -24px;
+}
+
+.ig img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 300px;
+}
+
+.fb img
+{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 260px;
+}
+
+.in img
+{
+    
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 220px;
+    
+}
+
+.g img
+{
+    width: 26px;
+    height: 21px;
+    float: right;
+    margin-top: -26px;
+    margin-right: 180px;
+}
+
+.cari 
+{
+    width: 100px;
+    height: 90px;
+    float: right;
+}
+
+.cari img
+{
+    width: 80px;
+    height: 70px;
+    margin-top: -50px;
+}
+
+/* TAMPAK DEPAN */
+
+.depan
+{
+    background-image: url(sigleblog.jpg);
+    width: 100%;
+    height: 700px;
+    
+}
+
+.bali
+{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ms Madi', cursive;
+    padding-top: 250px;
+    color: white;
+    
+}
+
+.text
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+}
+
+/* FORM SEARCH KEYWORD */
+
+.form
+{
+    background-color: rgb(231, 148, 96);
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 135%;
+    left: 65%;
+}
+
+.form .keyword
+{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    left: 13%;
+    top: 20%;
+}
+
+.form input[type=submit]
+{
+    background-color: rgb(200, 88, 19);
+    border: none;
+    height: 40px;
+    width: 305px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    left: 13%;
+    top: 50%;
+}
+
+.form input[name="search"]:hover
+{
+    background-color: rgb(157, 69, 14);
+}
+
+
+/* BAGIAN CATEGORY */
+
+.category
+{
+    background-color: rgb(230, 193, 170);
+    width: 400px;
+    height: 320px;
+    position: absolute;
+    top: 170%;
+    left: 65%;
+}
+
+.category h3
+{
+    font-size: 25px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black  ;
+    width: 340px;
+    color: black;
+}
+
+.category .food
+{
+    top: 20%;
+    left: 7%;
+    position: absolute;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    width: 340px;
+    color: black;
+    font-weight: bold;
+}
+
+.category .travel
+{
+    top: 32%;
+    left: 7%;
+    position: absolute;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    width: 340px;
+    color: black;
+    font-weight: bold;
+}
+
+.category .modern
+{
+    top: 44%;
+    left: 7%;
+    position: absolute;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    width: 340px;
+    color: black;
+    font-weight: bold;
+}
+
+.category .product
+{
+    top: 56%;
+    left: 7%;
+    position: absolute;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    width: 340px;
+    color: black;
+    font-weight: bold;
+}
+
+.category .inspiration
+{
+    top: 68%;
+    left: 7%;
+    position: absolute;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    width: 340px;
+    color: black;
+    font-weight: bold;
+}
+
+.category .health
+{
+    top: 80%;
+    left: 7%;
+    position: absolute;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    width: 340px;
+    color: black;
+    font-weight: bold;
+}
+
+.category p:hover
+{
+    color: rgb(225, 72, 98);
+}
+
+/* BAGIAN RECENT POST */
+
+.recent h3
+{
+    font-size: 25px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 340px;
+    color: rgb(0, 0, 0);
+}
+
+
+.recent
+{
+    background-color: rgb(230, 193, 170);
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 224%;
+    left: 65%;
+}
+
+.poto1 img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 16%;
+    left: 7%;
+}
+
+.poto1 h4
+{
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.poto1 p
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: black;
+    font-size: 20px;
+}
+
+.poto2 img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
+
+.poto2 h4
+{
+    position: absolute;
+    top: 41%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.poto2 p
+{
+    position: absolute;
+    top: 48%;
+    left: 30%;
+    color:  black;
+    font-size: 20px;
+}
+
+.poto3 img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 54%;
+    left: 7%;
+}
+
+.poto3 h4
+{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.poto3 p
+{
+    position: absolute;
+    top: 67%;
+    left: 30%;
+    color:  black;
+    font-size: 20px;
+}
+
+.poto4 img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 73%;
+    left: 7%;
+}
+
+.poto4 h4
+{
+    position: absolute;
+    top: 79%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.poto4 p
+{
+    position: absolute;
+    top: 86%;
+    left: 30%;
+    color:  black;
+    font-size: 20px;
+}
+
+.recent h4:hover
+{
+    color: rgb(225, 72, 98);
+}
+
+/* TAG CLOUDS */
+
+.clouds
+{
+    background-color: rgb(230, 193, 170);
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 300%;
+    left: 65%;
+}
+
+.clouds .tag h3
+{
+    font-size: 25px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 340px;
+    color: rgb(0, 0, 0);
+}
+
+.project input[name="pro"]
+{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top: 26%;
+    left: 7%;
+    background-color: rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.love input[name="lo"]
+{
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    background-color:rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.tech input[name="te"]
+{
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    background-color: rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.travel input[name="tra"]
+{
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    top: 38%;
+    left: 7%;
+    background-color: rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.rest input[name="res"]
+{
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    top: 38%;
+    left: 33%;
+    background-color: rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.lifes input[name="li"]
+{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    background-color: rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.design input[name="des"]
+{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    background-color: rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.illustration input[name="illu"]
+{
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    top: 62%;
+    left: 7%;
+    background-color: rgb(216, 148, 106);
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.clouds input:hover
+{
+    background-color : rgb(169, 117, 84);
+}
+
+/* INSTAGRAM FEEDS */
+
+.feeds
+{
+    background-color: rgb(230, 193, 170);
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 345%;
+    left: 65%;
+}
+
+.feeds .feed h3
+{
+    font-size: 25px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 340px;
+    color: rgb(0, 0, 0);
+}
+
+.feeds1 img
+{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top: 18%;
+   left: 7%;
+   cursor: pointer;
+}
+
+.feeds2 img
+{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top: 18%;
+   left: 32%;
+   cursor: pointer;
+}
+
+.feeds3 img
+{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top: 18%;
+   left: 57.5%;
+   cursor: pointer;
+}
+
+.feeds4 img
+{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top: 55%;
+   left: 7%;
+   cursor: pointer;
+}
+
+.feeds5 img
+{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top: 55%;
+   left: 32%;
+   cursor: pointer;
+}
+
+.feeds6 img
+{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top: 55%;
+   left: 57.5%;
+   cursor: pointer;
+}
+
+/* NewsLetter */
+.news
+{
+    background-color: rgb(230, 193, 170);
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 397%;
+    left: 65%;
+}
+
+.news .letter h3
+{
+    font-size: 25px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 340px;
+    color: rgb(0, 0, 0);
+}
+
+.formnews .keyword
+{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    left: 11%;
+    top: 30%;
+}
+
+.formnews input[name="search2"]
+{
+    width: 302px;
+    height: 40px;
+    position: absolute;
+    left: 11%;
+    top: 50%;
+    background-color: rgb(200, 88, 19);
+    border: 1px solid black;
+}
+
+.formnews input:hover[name="search2"]
+{
+    background-color: rgb(157, 69, 14);
+}   
+
+/* ARTIKEL FOTO PERTAMA */
+
+.one img
+{
+    width: 620px;
+    height: 400px;
+    position: absolute;
+    top: 132%;
+    left: 5%;
+}
+
+.one a
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 72, 98);
+    position: absolute;
+    top: 187%;
+    left: 7%;
+    border-radius: 10px;
+}
+
+.one a:hover
+{
+    opacity: 0;
+    color:rgb(225, 72, 98);
+}
+
+.one h3
+{
+    font-size: 50px;
+    font-family: 'Ms Madi', cursive;
+    position: absolute;
+    top: 187%;
+    left: 9.5%;
+    font-weight: bold;
+    color:black;
+}
+
+.ft1
+{
+    font-size: 35px;
+    font-family: 'Ms Madi', cursive;
+    position: absolute;
+    top: 194%;
+    left: 8.5%;
+    font-weight: bold;
+    color: black;
+}
+
+.kotak1 h3:hover , .ft1:hover
+{
+    color:rgb(225, 72, 98);
+    cursor: pointer;
+}
+
+.one .artikel1 
+{
+    position: absolute;
+    top: 200%;
+    left: 5%;
+    width: 620px;
+    height: 200px;
+    background-color: rgb(230, 193, 170);
+}
+
+.artikel1 h2
+{
+    position: absolute;
+    top: 14%;
+    left: 5%;
+}
+
+.artikel1 .art1 
+{
+    position: absolute;
+    top: 31%;
+    left: 5%;
+    width: 580px;
+    height: 30px;
+}
+
+.artikel1 .orang img
+{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+
+.artikel1 .orang .orang1
+{
+    position: absolute;
+    top: 73%;
+    left: 8%;
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+
+.artikel1 .komen img
+{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    top: 63%;
+    left: 30%;
+}
+
+.artikel1 .komen .komen1
+{
+    position: absolute;
+    top: 73%;
+    left: 36%;
+    
+}
+
+.one .artikel1 h2:hover
+{
+    color: rgb(225, 72, 98);
+    cursor: pointer;
+}
+
+.one .artikel1 .orang:hover
+{
+    color: rgb(225, 72, 98);
+    cursor: pointer;
+    background-color: rgb(225, 72, 98);
+}
+
+.one .artikel1 .komen:hover
+{
+    color: rgb(225, 72, 98);
+    cursor: pointer;
+    background-color: rgb(225, 72, 98);
+}
+
+/*ARTIKEL TEXT*/
+
+.txt1
+{
+    position: absolute;
+    top: 236%;
+    left: 5%;
+    width: 700px;
+    height: 300px;
+    font-size: 20px;
+    color: grey;
+}
+
+.txt2
+{
+    position: absolute;
+    top: 255%;
+    left: 5%;
+    width: 700px;
+    height: 300px;
+    font-size: 20px;
+    color: grey;
+}
+
+.txt3
+{
+    position: absolute;
+    top: 285%;
+    left: 11%;
+    width: 500px;
+    height: 150px;
+    font-size: 20px;
+    color: grey;
+    border-left: 2px solid black;
+    padding-left: 35px;
+}
+
+.txt4
+{
+    position: absolute;
+    top: 320%;
+    left: 5%;
+    width: 700px;
+    height: 300px;
+    font-size: 20px;
+    color: grey;
+}
+
+.txt5
+{
+    position: absolute;
+    top: 340%;
+    left: 5%;
+    width: 700px;
+    height: 300px;
+    font-size: 20px;
+    color: grey;
+}
+
+/* BAGIAN LIKE DAN LOGO */
+
+.like .love img
+{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 358%;
+    left: 5%;
+}
+
+.like .love p
+{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 361.5%;
+    left: 7%;
+    color: grey;
+}
+
+.like .inst img
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 358.5%;
+    left: 56%;
+}
+
+.like .face img
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 357%;
+    left: 53%;
+}
+
+.like .twi img
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 358.5%;
+    left: 51.5%;
+}
+
+.like .path img
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 358.5%;
+    left: 49%;
+}
+
+/* NEXT AND PREV */
+
+.slide .prev img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 369%;
+    left: 5%;
+}
+
+.slide .prev p
+{
+    position: absolute;
+    top: 373%;
+    left: 12%;
+    font-size: 20px;
+    color: grey;
+}
+
+.slide .prev h3
+{
+    position: absolute;
+    top: 377%;
+    left: 12%;
+}
+
+.slide .next img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 369%;
+    left: 56%;
+}
+
+.slide .next p
+{
+    position: absolute;
+    top: 373%;
+    left: 48%;
+    font-size: 20px;
+    color: grey;
+}
+
+.slide .next h3
+{
+    position: absolute;
+    top: 377%;
+    left: 39%;
+}
+
+.slide h3:hover
+{
+    color: rgb(225, 72, 98);
+    cursor: pointer;
+}
+
+/* BAGIAN KOMENTAR */
+
+.komentar
+{
+    width: 700px;
+    height: 200px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 400%;
+    left: 5%;
+}
+
+.komentar img
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.komentar h3
+{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+.komentar p
+{
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    font-size: 15px;
+}
+
+.comments h3
+{
+    position: absolute;
+    top: 440%;
+    left: 6%;
+    border-top: 2px solid black;
+    width: 700px;
+    padding-top: 40px;
+}
+
+/* REPLY COMMENT PERTAMA */
+
+.reply .oura img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 6%;
+    top: 450%;
+}
+
+.reply .oura .oura1
+{
+    width: 600px;
+    height: 30px;
+    position: absolute;
+    top: 455%;
+    left: 13%;
+}
+
+.reply .oura h4
+{
+    position: absolute;
+    top: 461%;
+    left: 13%;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+.reply .oura .oura2
+{
+    position: absolute;
+    top: 462%;
+    left: 17%;
+    color: grey;
+}
+
+.reply .oura h5
+{
+    position: absolute;
+    top: 462%;
+    left: 54%;
+    font-size: 15px;
+}
+
+.oura h4:hover , .oura h5:hover
+{
+    color: rgb(225, 72, 98);
+    cursor: pointer;
+}
+
+/* REPLY COMMENT KEDUA */
+
+.reply1 .uus img
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 6%;
+    top: 470%;
+}
+
+.reply1 .uus .uus1
+{
+    width: 600px;
+    height: 30px;
+    position: absolute;
+    top: 475%;
+    left: 13%;
+}
+
+.reply1 .uus h4
+{
+    position: absolute;
+    top: 481%;
+    left: 13%;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+.reply1 .uus .uus2
+{
+    position: absolute;
+    top: 482%;
+    left: 17%;
+    color: grey;
+}
+
+.reply1 .uus h5
+{
+    position: absolute;
+    top: 482%;
+    left: 54%;
+    font-size: 15px;
+}
+
+.uus h4:hover , .uus h5:hover
+{
+    color: rgb(225, 72, 98);
+    cursor: pointer;
+}
+
+/* FORM BAWAH */
+
+.formulir .enter
+{
+    position: absolute;
+    top: 504%;
+    border: 1px solid black;
+    height: 157px;
+    left: 5%;
+    
+}
+
+.formulir .form1 h3
+{
+    position: absolute;
+    top: 490%;
+    left: 5%;
+    font-size:20px;
+    color: grey;
+    border-top: 2px solid black;
+    width: 700px;
+    padding-top: 40px;
+}
+
+.name input
+{
+    position: absolute;
+    top: 532%;
+    width: 340px;
+    height: 30px;
+    left: 5%;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding: 0 0 0 13px;
+}
+
+.email input
+{
+    position: absolute;
+    top: 532%;
+    width: 340px;
+    height: 30px;
+    left: 37%;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding: 0 0 0 13px;
+}
+
+.subject input
+{
+    position: absolute;
+    top: 543%;
+    width: 740px;
+    height: 30px;
+    left: 5%;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding: 0 0 0 13px;
+}
+
+input[name="search"]
+{
+    position: absolute;
+    top: 555%;
+    left: 5%; 
+    background-color: rgb(48, 172, 206);
+    border: none;
+    height: 45px;
+    width: 160px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+input[name="search"]:hover
+{
+    background-color: rgb(0, 110, 110);
+}
+
+/* FOOTER */
+
+.foot 
+{
+    width: 100%;
+    height: 500px;
+    background-color:#040e27;
+    position: absolute;
+    top: 590%;
+}
+
+.foot .alamat img
+{
+    width: 70px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.foot .alamat h2
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 9%;
+}
+
+.foot .alamat .alamat1
+{
+    color: grey;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    width:200px;
+}
+
+.foot .alamat .nohp
+{
+    position: absolute;
+    top: 42%;
+    color: grey;
+    left: 5%;
+}
+
+.foot .alamat .email
+{
+    position: absolute;
+    top: 46%;
+    color: grey;
+    left: 5%;
+}
+
+.email a , .nohp a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.email a:hover , .nohp a:hover
+{
+    color: rgb(0, 110, 110);
+    
+}
+
+.foot .company .com h2
+{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    color: grey;
+}
+
+.foot .company a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.pricing
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.about1
+{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+}
+
+.gallery
+{
+    position: absolute;
+    top: 46%;
+    left: 30%;
+}
+
+.contact1
+{
+    position: absolute;
+    top: 54%;
+    right:66%;
+}
+
+.pricing a:hover , .about a:hover , .gallery a:hover , .contact a:hover
+{
+    color: rgb(0, 110, 110);
+}
+
+.destination1 .desti
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 48%;
+}
+
+.destination1 a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+.jakarta
+{
+    position: absolute;
+    top: 30%;
+    left: 48%;
+}
+
+.bandung
+{
+    position: absolute;
+    top: 38%;
+    left: 48%;
+}
+
+.malang
+{
+    position: absolute;
+    top: 46%;
+    left: 48%;
+}
+
+.batam
+{
+    position: absolute;
+    top: 54%;
+    left: 48%;
+}
+
+.bogor
+{
+    position: absolute;
+    top: 30%;
+    left: 61%;
+}
+
+.samarinda
+{
+    position: absolute;
+    top: 38%;
+    left: 61%;
+}
+
+.palembang
+{
+    position: absolute;
+    top: 46%;
+    left: 61%;
+}
+
+.jambi
+{
+    position: absolute;
+    top: 54%;
+    left: 61%;
+}
+
+.ins
+{
+    color: grey;   
+    position: absolute;
+    top: 18%;  
+    left: 75%;
+}
+
+.foto1 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 75%;
+}
+
+.foto2 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 82%;
+}
+
+.foto3 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 89%;
+}
+
+.foto4 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+
+.foto5 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 82%;
+}
+
+.foto6 img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 89%;
+}
+
+.copy 
+{
+    color: grey;
+    position: absolute;
+    top: 92%;
+    left: 60px;
+    text-align: center;
+    border-top: 1px solid rgb(105, 105, 105);
+    width: 1100px;
+    padding-top: 10px;
+}
+
+.jakarta a:hover , .bandung a:hover , .malang a:hover ,
+.batam a:hover , .bogor a:hover , .samarinda a:hover ,
+.palembang a:hover , .jambi a:hover
+{
+    color: rgb(0, 110, 110);
+}
+
+.logos .logo1 img
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+.logos .logo2 img
+{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 41.4%;
+    left: 5%;
+}
+
+.logos .logo3 img
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 39%;
+    left: 7%;
+}
+
+.logos .logo4 img
+{
+    width: 40px;
+    height: 33px;
+    position: absolute;
+    top: 39.8%;
+    left: 10.2%;
+}
+
+.logos .logo5 img
+{
+    width: 30px;
+    height: 23px;
+    position: absolute;
+    top: 40.5%;
+    left: 14.2%;
+}
